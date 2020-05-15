@@ -87,3 +87,29 @@
     color: #808080;
     font-size: 16px;
 }
+.footer{
+    width: 1120px;
+    margin: 50px 50px 5px 115px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__picture,.footer__sing{
+    padding: 15px 40px 14px 40px;
+}
+.footer__sing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__sing-title{
+    color: #808080;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.footer__sing-num{
+    color: #808080;
+    font-size: 25px;
+    font-weight: 900;
+}
