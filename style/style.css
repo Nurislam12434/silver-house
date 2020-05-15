@@ -30,7 +30,60 @@
     display: block;
     padding: 10px 20px;
 }
+.header img{
+    margin-bottom: 55px;
+}
 .header__nav-link:hover{
     color: white;
     background: midnightblue;
+}
+.main{
+    width: 1120px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main__left{
+   max-width: 585px;
+   width: 100%;
+    padding: 40px 39px 66px 103px;
+    background: #f0f0f0;
+
+}
+.main__left-title{
+    color: #4581b7;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.main__left-description{
+    color: #808080;
+    line-height: 27px;
+    font-size: 16px;
+}
+.main__right{
+   max-width: 250px;
+   width: 100%;
+   padding: 49px 38px 53px;
+   background: #f0f0f0;
+}
+.main__right-title{
+    color: #4581b7;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.main__right-description{
+    color: #808080;
+    line-height: 27px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.main__right-number{
+    color: #808080;
+    font-size: 16px;
+    margin-bottom: 51px;
+}
+.right__mail{
+    color: #808080;
+    font-size: 16px;
 }
